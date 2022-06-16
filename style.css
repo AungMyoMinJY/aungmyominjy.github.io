@@ -1,0 +1,131 @@
+
+@font-face	{
+			font-family: 'Marcellus', serif;
+			font-family: 'PT Sans', sans-serif;
+			}
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=PT+Sans&display=swap');
+
+.flex {
+	display: flex;
+}
+.text-w {
+	color: #ffffff;
+}
+.heading {
+	text-transform: uppercase;
+}
+.margin {
+	margin: 30px auto;
+}
+nav div {
+	justify-content: space-between;	
+	padding: 25px 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 20px 20px;
+	color: white;
+}
+nav {
+	width: 100%;
+	height: 70px;
+	background-color: #262626;
+	color: white;
+}
+.lo2 {
+	background: url('./coffee1.jpg');
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	height: 700px;
+
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(36,36,36,0.4);
+}
+.lo2 div div {
+	padding-top: 200px;
+}
+.lo2 h1 {
+	font-size: 80px;
+	text-align: center;
+}
+.lo2 h2 {
+	font-size: 45px;
+	letter-spacing: 15px;
+	text-align: center;
+}
+.lo3 {
+	text-align: center;
+}
+
+.lo3 h2 {
+	width: 38%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.lo3 div {
+	width: 80px;
+	height: 0px;
+	border-bottom: solid red 2px;
+	margin: 0 auto;
+	margin-top: 7px;
+
+}
+.lo3 h1, .lo3 h2, .lo3 button {
+	margin-top: 20px;
+}
+.lo3 button {
+	font-size: 12px;
+	border-color: #ef2853;
+	background-color: #ef2853;
+	padding: 10px 14px;
+	border-radius: 8px;
+	color: white;
+	cursor: pointer;
+}
+.photo {
+	width: 417px;
+	height: 380px;
+}
+.lo4 .sub-nav {
+	display: none;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 100px;
+
+
+}
+.bk {
+	background-position: center;
+}
+.photo:hover>.sub-nav {
+	display: block;
+}
+.lo5 {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #e3e3e3;
+}
+.lo5 div div {
+	width: 200px;
+	height: auto;
+
+}
+.lo5 div {
+	justify-content: space-around;
+
+}
+.lo5 img {
+	width: 180px;
+	height: 320px;
+}
+.lo5 div div div {
+	margin-top: 15px;
+}
