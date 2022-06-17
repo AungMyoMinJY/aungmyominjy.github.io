@@ -69,7 +69,7 @@ nav {
 	margin: 0 auto;
 }
 
-.lo3 div {
+.underline {
 	width: 80px;
 	height: 0px;
 	border-bottom: solid red 2px;
@@ -89,9 +89,9 @@ nav {
 	color: white;
 	cursor: pointer;
 }
-.photo {
-	width: 417px;
-	height: 380px;
+/*.photo {
+	width: 300px;
+	height: 300px;
 }
 .lo4 .sub-nav {
 	display: none;
@@ -106,7 +106,62 @@ nav {
 }
 .photo:hover>.sub-nav {
 	display: block;
+}*/
+
+.menu .menu-item {
+	width: 25%;
+	height: 400px;
+	background: red;
 }
+.menu .menu-coffee {
+	background: url('menu/coffee.png');
+	background-size: cover;
+}
+.menu .menu-bbtea {
+	background: url('menu/bbtea.png');
+	background-size: cover;
+}
+.menu .menu-sdrink {
+	background: url('menu/sdrink.png');
+	background-size: cover;
+}
+.menu .menu-bv{
+	background: url('menu/bv.png');
+	background-size: cover;
+}
+.menu .menu-cake {
+	background: url('menu/cake.png');
+	background-size: cover;
+}
+.menu .menu-noodle {
+	background: url('menu/noodle.png');
+	background-size: cover;
+}
+.menu .menu-rice {
+	background: url('menu/rice.png');
+	background-size: cover;
+}
+.menu .menu-donut {
+	background: url('menu/donut.png');
+	background-size: cover;
+}
+
+
+.menu .overlay {
+	display: none;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+/*	padding-top: 100px;*/
+}
+.menu .overlay h4 {
+	padding-top: 100px
+}
+.menu .menu-item:hover > .overlay {
+	display: block;
+}
+
+
 .lo5 {
 	text-align: center;
 	padding-top: 30px;
@@ -125,6 +180,7 @@ nav {
 .lo5 img {
 	width: 180px;
 	height: 320px;
+	image-rendering: 180px 320px;
 }
 .lo5 div div div {
 	margin-top: 15px;
