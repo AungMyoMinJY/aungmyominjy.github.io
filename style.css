@@ -142,7 +142,7 @@ nav {
 	background-size: cover;
 }
 .menu .menu-donut {
-	background: url('menu/donut.png');
+	background: url('./menu/donut.png');
 	background-size: cover;
 }
 
