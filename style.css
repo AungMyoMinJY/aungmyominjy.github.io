@@ -1,187 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+body {
+	font-family: 'Josefin slab', Georgia, serif;
+	font-size: 17px;
+	color: #002207;
+	line-height: 1.5em;
+	min-width: 360px;
+}
 
-@font-face	{
-			font-family: 'Marcellus', serif;
-			font-family: 'PT Sans', sans-serif;
-			}
-
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=PT+Sans&display=swap');
 
 .flex {
 	display: flex;
 }
-.text-w {
-	color: #ffffff;
-}
+
 .heading {
 	text-transform: uppercase;
 }
-.margin {
-	margin: 30px auto;
+.justify-content {
+	justify-content: center;
 }
-nav div {
-	justify-content: space-between;	
-	padding: 25px 20px;
+.align-center {
+	align-items: center;
 }
-nav ul li a{
+a {
 	text-decoration: none;
-	padding: 20px 20px;
-	color: white;
-}
-nav {
-	width: 100%;
-	height: 70px;
-	background-color: #262626;
-	color: white;
-}
-.lo2 {
-	background: url('./coffee1.jpg');
-	background-position: center;
-	background-size: cover;
-	width: auto;
-	height: 700px;
-
 }
 
-.overlay {
-	width: 100%;
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Cormorant Garamond', Georiga, serif;
+	text-transform: uppercase ;
+	line-height: 1.25em;
+	font-weight: 600px;
+}
+
+h1 {font-size: 2.7em;}
+h2 {font-size: 2.2em;}
+h3 {font-size: 1.8em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.1em;}
+h6 {font-size: 0.9em;}
+
+body {
+	background: #F9F3E8;
+}
+.main {
+	width: 85%;
+	margin: 0 auto;
+	border-right: 1px solid #002207;
+	border-left: 1px solid #002207;
+}
+.button {
+	background: #FFD2A8;
+	border-right: 1px solid #002207;
+	box-shadow: 4px 4px 0 #002207;
+	padding: 8px 15px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.logo a {
+	text-decoration: none;
+	color: inherit;
+	display: inline-block	;
+}
+header {
+	border-bottom: 1px solid #002207;
+	justify-content: space-around;
+	height: 80px;
+}
+.logo, .navigation, .social {
 	height: 100%;
-	background: rgba(36,36,36,0.4);
 }
-.lo2 div div {
-	padding-top: 200px;
+.logo, .social {
+	width: 18%;	
 }
-.lo2 h1 {
-	font-size: 80px;
-	text-align: center;
+.logo {
+	border-right: 1px solid #002207;
+	height: 100%;
+	align-items: center;
 }
-.lo2 h2 {
-	font-size: 45px;
-	letter-spacing: 15px;
-	text-align: center;
+.logo a h1 {
+	text-transform: uppercase;
 }
-.lo3 {
-	text-align: center;
+.navigation {
+	gap: 15px;
+	display: flex;
 }
-
-.lo3 h2 {
-	width: 38%;
-	height: auto;
-	margin: 0 auto;
+.navigation li {
+	list-style: none;
 }
-
-.underline {
-	width: 80px;
-	height: 0px;
-	border-bottom: solid red 2px;
-	margin: 0 auto;
-	margin-top: 7px;
-
+.navigation li a {
+	font-family: 'Cormorant Garmond';
+	font-weight: 600px;
+	font-size: 1.2em;
 }
-.lo3 h1, .lo3 h2, .lo3 button {
-	margin-top: 20px;
+.social {
+	justify-content: flex-end;
+	gap: 20px;
+	border-left: 1px solid #002207;
+	height: 80px;
 }
-.lo3 button {
-	font-size: 12px;
-	border-color: #ef2853;
-	background-color: #ef2853;
-	padding: 10px 14px;
-	border-radius: 8px;
-	color: white;
+.jumbotron {
+	border-bottom: 1px solid #002207;
+}
+.jumbotron video {
+	width: 50%;
+	padding: 10px;
+	border-right: 1px solid #002207;
+}
+.jumbotron .jumbotron-content {
+	padding: 10px 25px;
+}
+.jumbotron .jumbotron-content .button {
+	margin-top: 30px;
+}
+.sub_guide div {
+	border-right: 1px solid #002207;
+	padding: 25px 15px;
+}
+.sub_guide .g5 {
+	border-right: none;
+}
+.sub_guide {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.guide {
+	border-bottom: 1px solid #002207;
+}
+.sub_guide H3, .guide-5 h5 {
+	margin-bottom: 5px;
+}
+.sub_guide div:hover {
+	background-color: lavender;
 	cursor: pointer;
 }
-/*.photo {
-	width: 300px;
-	height: 300px;
-}
-.lo4 .sub-nav {
-	display: none;
-	color: #ffffff;
-	text-align: center;
-	padding-top: 100px;
 
 
-}
-.bk {
-	background-position: center;
-}
-.photo:hover>.sub-nav {
-	display: block;
-}*/
-
-.menu .menu-item {
-	width: 25%;
-	height: 400px;
-	background: red;
-}
-.menu .menu-coffee {
-	background: url('menu/coffee.png');
-	background-size: cover;
-}
-.menu .menu-bbtea {
-	background: url('menu/bbtea.png');
-	background-size: cover;
-}
-.menu .menu-sdrink {
-	background: url('menu/sdrink.png');
-	background-size: cover;
-}
-.menu .menu-bv{
-	background: url('menu/bv.png');
-	background-size: cover;
-}
-.menu .menu-cake {
-	background: url('menu/cake.png');
-	background-size: cover;
-}
-.menu .menu-noodle {
-	background: url('menu/noodle.png');
-	background-size: cover;
-}
-.menu .menu-rice {
-	background: url('menu/rice.png');
-	background-size: cover;
-}
-.menu .menu-donut {
-	background: url('../menu/donut.png');
-	background-size: cover;
-}
 
 
-.menu .overlay {
-	display: none;
-	color: white;
-	font-size: 15px;
-	text-align: center;
-/*	padding-top: 100px;*/
-}
-.menu .overlay h4 {
-	padding-top: 100px
-}
-.menu .menu-item:hover > .overlay {
-	display: block;
+
+@media (max-width: 1100px) {
+	.main {
+		width: 100%;
+		border: none;
+	}
+	.logo {
+		width: auto;
+		padding-right: 30px;
+	}
+
+	.social {
+		display: none;
+	}
+	.sub_guide {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		
+	}
+	.sub_guide .g5 {
+		border-right: 1px solid #002207;
+	}
+	.g1, .g2, .g3 {
+		border-bottom: 1px solid #002207;
+	}
 }
 
+@media (max-width: 720px) {
+	header {
+		flex-direction: column;
+		padding: 0;
+		height: auto;
+	}
 
-.lo5 {
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background-color: #e3e3e3;
-}
-.lo5 div div {
-	width: 200px;
-	height: auto;
-
-}
-.lo5 div {
-	justify-content: space-around;
-
-}
-.lo5 img {
-	width: 180px;
-	height: 320px;
-	image-rendering: 180px 320px;
-}
-.lo5 div div div {
-	margin-top: 15px;
+	.logo {
+		border-right: 0;
+		border-bottom: 1px solid #002207;
+		width: 100%;
+		text-align: center;
+		padding: 10px 0;
+	}
+	.navigation {
+		padding: 10px 0;
+		gap: 5px;
+	}
+	.jumbotron{
+		flex-direction: column;
+	}
+	.jumbotron .jumbotron-content {
+		padding: 10px;
+	}
+	.jumbotron video {
+		width: 100%;
+		border-right: 0;
+		box-sizing: border-box;
+	}
+	.logo {
+	justify-content: center;
+	}
+	.sub_guide {
+		display: grid;
+		grid-template-columns: 1fr;		
+	}
+	.g4 {
+		border-bottom: 1px solid #002207;
+	}
+	
 }
