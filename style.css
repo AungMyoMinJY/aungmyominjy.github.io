@@ -165,6 +165,9 @@ header {
 	.g1, .g2, .g3 {
 		border-bottom: 1px solid #002207;
 	}
+	.sub_guide .g3 {
+		border-right: none;
+	}
 }
 
 @media (max-width: 720px) {
@@ -201,10 +204,16 @@ header {
 	}
 	.sub_guide {
 		display: grid;
-		grid-template-columns: 1fr;		
+		grid-template-columns: 1fr 1fr;
+
 	}
 	.g4 {
 		border-bottom: 1px solid #002207;
 	}
-	
+	.sub_guide .g3 {
+		border-right: 1px solid #002207;
+	}
+	.sub_guide .g2, .sub_guide .g4 {
+		border-right: none;
+	}
 }
